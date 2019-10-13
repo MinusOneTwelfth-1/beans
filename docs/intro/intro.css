@@ -1,0 +1,76 @@
+// COFFEE STYLES
+
+html {height: 90%;}
+body {font-family: xkcd-script, sans-serif; background-color: #fdfdfd;}
+
+h1 {color: #883030; margin-top: 0px; margin-bottom: 8px;}
+h2 {color: #545cb0;margin-top: 12px;margin-bottom: 0px; font-size: 21pt;}
+
+p.stuffPara {font-size: 16pt; margin: 9px;}
+.stuffPara {font-size: 16pt; margin: 9px;}
+
+a.extLink {background-color: rgba(40, 201, 244, 0.3); color: #883030; font-weight: bold;}
+a.extLink:hover {color:black; text-decoration: none; background-color: #f0ff68}
+
+a.coffee {background-color: #2847d9;
+    cursor: pointer;
+    color: #f0ffc4;
+    padding-left: 6px; padding-right: 6px;
+    border-radius: 6px;}
+a.coffee:hover {font-weight: bold;}
+
+button {    font-size: 20pt;
+    border: none;
+    border-radius: 6px;
+    padding: 5px;
+    color: #fffef6e3;
+    font-family: xkcd-script;
+    font-weight: bold;
+    background-color: #2847d9; cursor: pointer;}
+
+button.lilButton {font-size: 16pt; padding: 2px; padding-left: 4px; padding-right: 4px;}
+
+button:hover {text-decoration: underline; color: #92fff4; font-weight: normal;}
+
+#bigBox {width: 80%; min-width: 1600px; box-shadow: 0 0 40px rgba(0, 0, 0, .15);  
+           padding: 6px; background-color: #fefefc; border-radius: 5px;
+          margin: auto;}
+
+#header {font-family: 'Schoolbell', cursive; background: #f0f0f0; margin: 21px;
+         padding-left: 21px;}
+
+
+
+#theTitle {color: #ac590c; margin-bottom: 2px; font-size: 28pt;
+           text-shadow: 1px 2px 3px rgba(0, 0, 0, .2);}
+#subTitle {margin-top: 2px; font-size: 22pt;}
+
+
+
+
+#tabStrip {display: inline-block; padding-left: 1.5em;  vertical-align: bottom;}
+
+.theTabs { color: gray; font-size: 20pt; border: solid gray 2px; border-bottom: none; 
+            background-color: #faff96; width: 2em; display:inline-block; text-align: center; 
+           vertical-align: bottom;
+           border-radius: 10px;border-bottom-left-radius: 0px; 
+              border-bottom-right-radius: 0px; user-select: none;
+           cursor: pointer;}
+
+.activeTab {border-color: green; color: green; background-color: #ffd389; font-weight: bold; border-width: 4px;}
+
+.theTabs:hover  {background-color: #e2ffcf; font-weight: bold; color: black; border-color: black;
+                  border-width: 4px;}
+
+.activeTab:hover {background-color: #ffd389; color: green; border-color: green;}
+
+#stuff  { display: inline-block; vertical-align: top; width: 70%; margin-left: 21px;
+          padding: 12px; background-color: #f2f2f2; 
+         }
+
+.activeStuff {display: inline-block;}
+.inactiveStuff {display: none;}
+
+
+#pix {display: inline-block;}
+// END coffee styles
