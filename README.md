@@ -1,3 +1,2 @@
 # oopsilon Kassidi 1
-testing stuff
-It is a fact universally acknowledged...
+Big changes to README
